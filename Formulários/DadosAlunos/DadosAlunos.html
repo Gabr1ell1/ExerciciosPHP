@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro De Aluno</title>
+</head>
+<body>
+
+<form action="dadosalunos.php" method="post">
+<fieldset style="width: 40;">
+    <legend>
+        Dados Pessoais
+    </legend>
+    Nome <input type="text" name="nome" placeholder="Nome Completo" size="50"><br><br>
+    Telefone <input type="tel" name="telefone" placeholder="Telefone" sixe="20" maxlength="14"><br><br>
+    RG <input type="text" name="rg" size="14" maxlength="15"><br><br>
+</fieldset><br>
+
+
+
+<fieldset>
+    <legend>
+    Opções
+    </legend>
+    <input type="submit" value="Confirmar">
+    <input type="reset" value="Limpar">
+</fieldset>
+
+
+
+<fieldset>
+    <legend>
+        Dados Escolares
+    </legend>
+    Curso <select name="curso" id="curso">
+     <option value="Informática">Informática</option>
+        <option value="Administração">Administração</option>
+        <option value="Enfermagem">Enfermagem</option>
+        <option value="Alimento">Alimento</option>
+    </select><br><br>
+    Módulo <input type="text" name="mod" size="10">
+</fieldset>
+
+</form>    
+</body>
+</html>
